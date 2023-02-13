@@ -3,5 +3,66 @@
     margin: 0px;
     height: 1000px;
     padding: 0px;
-    background:white;
+    background:whitesmoke;
+    display: flex;
+    justify-content: space-around;
 }
+
+.AboutMe{ 
+    width: 40vw;
+    height: 600px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.AboutMe main { 
+    margin: auto;
+}
+.AboutMe h1{ 
+    color:black;
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+.AboutMe p{ 
+    color:black;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 20px;
+    width: 700px;
+}
+.forimg{ 
+    width: 40vw;
+    height: 600px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.forimg button{ 
+   margin: auto;
+   padding: 20px;
+   font-size: 1.5em;
+   border-radius: 20px;
+   width: 500px;
+   border: 2px solid black ;
+   background-color: white;
+}
+.forimg button:hover{ 
+  opacity: 0.7;
+ }
+.forimg main{ 
+    margin: auto;
+    padding: 20px;
+    font-size: 1.5em;
+    width: 700px;
+    display:flex ;
+    justify-content:center ;
+    flex-direction: column;
+ }
+
+ .forimg h1{ 
+    font-size: 15em;
+    text-align: center;
+ }
+
+

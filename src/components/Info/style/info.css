@@ -1,0 +1,9 @@
+.AboutContent{ 
+    width: 100%;
+    margin: 0px;
+    height: 1000px;
+    padding: 0px;
+    background:white;
+    display: flex;
+    justify-content: space-around;
+}

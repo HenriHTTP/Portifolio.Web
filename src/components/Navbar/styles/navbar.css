@@ -3,6 +3,7 @@
     margin: 0px;
     font-size: 1em;
 }
+
 .Content{ 
     width: 100%;
     margin: 0px;
@@ -30,9 +31,8 @@
     position: fixed;
     background-color:white;
     top: 0px;
-    animation-name: punch;
-    animation-duration: 0.2s;
     border-bottom:2px solid gray;
+    opacity:1;
 }
 .logo{ 
     width: 400px;
@@ -61,13 +61,17 @@
 }
 .Links ul li:hover{ 
     border-bottom:solid 2px white;
-    transition-delay: 0.2s;
+    transition-delay: 0s;
 }
 
 
 .register{ 
-    width: 900px;
-    margin-top: 300px;
+    width: 80vw;
+    margin: auto;
+    height: 800px;
+    display: flex;
+    justify-content: start;
+    background-color:transparent;
 }
 .register  h1{ 
   font-size: 3em;
@@ -78,13 +82,15 @@
 
 }
 .register main{ 
-   width: 500px;
-   margin: auto;
+   width:500px;
    color: white;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color:transparent;
 }
 .register main p{ 
     width: 500px;
-    margin: auto;
     color: white;
     font-size: 2em;
  }
