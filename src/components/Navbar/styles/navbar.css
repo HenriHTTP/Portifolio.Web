@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+.Content{ 
+    width: 100%;
+    margin: 0px;
+    height: 1000px;
+    padding: 0px;
+    background-image:url('../img/foto1.jpg');
+}
+.navbar{ 
+    height: 100px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color:white;
+}
+.fixed{ 
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color:black;
+    position: fixed;
+    background-color:white;
+    top: 0px;
+    animation-name: punch;
+    animation-duration: 0.2s;
+    border-bottom:2px solid gray;
+}
+.logo{ 
+    width: 400px;
+    display: flex;
+    justify-content:center ;
+}
+.logo h1{ 
+    margin: auto;
+    font-size: 2.8em;
+}
+.Links{ 
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+.Links ul{ 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100vw;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-bottom:solid 2px transparent;
+    
+}
+.Links ul li:hover{ 
+    border-bottom:solid 2px white;
+    transition-delay: 0.2s;
+}
+
+
+.register{ 
+    width: 900px;
+    margin-top: 300px;
+}
+.register  h1{ 
+  font-size: 3em;
+  animation-name: tapping;
+  animation-duration: 1s;
+  position: relative;
+  animation-iteration-count: infinite;
+
+}
+.register main{ 
+   width: 500px;
+   margin: auto;
+   color: white;
+}
+.register main p{ 
+    width: 500px;
+    margin: auto;
+    color: white;
+    font-size: 2em;
+ }
+.linkedin{ 
+    width: 500px;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: solid 3px white;
+    border-radius: 20px;
+    cursor: pointer;
+    animation-name: punch;
+    animation-duration: 0.5s;
+    position: relative;
+
+ }
+ @keyframes punch { 
+    from{left: 100px;} 
+    to {left:0px;}
+}
+
+.linkedin:hover{ 
+    opacity: 0.5;
+    color:whitesmoke;
+ }
+ @keyframes toppunch { 
+    0%{top: -100px;} 
+    25%{top: -50px;} 
+    50%{top: -25px;} 
+    75%{top: -10px;} 
+    100% {left:0px;}
+}
+@keyframes tapping{ 
+    0%{border-right: 3px solid transparent;}
+    100% {border-right: 3px solid white;}
+}
