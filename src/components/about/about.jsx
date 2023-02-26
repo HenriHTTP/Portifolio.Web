@@ -10,15 +10,21 @@ export default function about(){
         <div className='forimg'> 
             <main>
             <h1><AiOutlineLaptop/></h1>
-            <button>Meu Cv</button>
             </main>
        
         </div>
         <div className='AboutMe'> 
         <main>
-        <h1>Sobre</h1>
-        <p>Olá! Deixe-me me apresentar: Meu nome é Henrique Lima, tenho 19 anos e sou formado em Análise e Desenvolvimento de Sistemas pela a Escola tecnica estadual Jardim Angela.Atualmente, vivo com os meus pais, mas busco a minha independência. Para conseguir isso, busco optunidades na area Front end, área pela qual sempre fui apaixonado.</p>
+        <h1>Desenvolvedor Front-end com experiências em React, React-native, e JavaScript.</h1>
+        <p>Olá! Deixe-me me apresentar,meu nome é Henrique Lima, tenho 19 anos e sou formado em Análise e Desenvolvimento de Sistemas pela a Escola tecnica estadual Jardim Angela.</p>
+        <p>Logo a baixo tem o meu currículo com informçôes mais detalhadas sobre mim. Podemos marcar uma call atráves do meu e-mail que está disponibilizado.</p>
+            <div className="buttons-contact">
+                <button>Baixar meu cv</button>
+                <button>Copiar E-mail</button>
+            </div>
         </main>
+
+       
         
         </div>
         </div>

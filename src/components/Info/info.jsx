@@ -1,10 +1,58 @@
 import React from 'react';
 import './style/info.css'
+import { SiTypescript,SiCsswizardry,SiJavascript,SiPython,SiHtml5,SiReact} from "react-icons/si";
 
 export default function info (){
     return(
         <>
-        <div id='tec' className='AboutContent'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quisquam voluptatibus consequuntur, ducimus iste facilis odit qui rerum eos aliquam officiis earum optio doloremque aspernatur quidem minima quas velit ea!</div>
+        <div id='tec' className='AboutContent'> 
+            <div className="frontend">
+                <h1>Habilidades</h1>
+                <h2>Skill</h2>
+               
+               
+            <div className="card-main">
+               <div className="card-tec">
+               <h3><SiHtml5/></h3>
+               <p>HTML</p>
+               </div>
+               
+               <div className="card-tec"> 
+               <h3><SiCsswizardry/></h3>
+               <p>CSS</p> 
+               </div>
+
+               <div className="card-tec"> 
+               <h3><SiJavascript/></h3>
+               <p>Javascript</p> 
+               </div>
+               
+               <div className="card-tec"> 
+               <h3><SiTypescript/></h3>
+               <p>Typescript</p> 
+               </div>
+
+               <div className="card-tec"> 
+               <h3><SiPython/></h3>
+               <p>Python</p> 
+               </div>
+
+               <div className="card-tec"> 
+               <h3><SiReact/></h3>
+               <p>React</p> 
+               </div>
+
+               <div className="card-tec"> 
+               <h3><SiReact/></h3>
+               <p>React Native</p> 
+               </div>
+               
+            </div>
+               
+            </div>
+        
+        
+        </div>
         </>
     )
 }

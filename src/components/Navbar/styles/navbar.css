@@ -9,7 +9,8 @@
     margin: 0px;
     height: 1000px;
     padding: 0px;
-    background-image:url('../img/foto1.jpg');
+    background-image:url('../img/foto2.jpg');
+    background-repeat: none;
 }
 .navbar{ 
     height: 100px;
@@ -32,7 +33,7 @@
     background-color:white;
     top: 0px;
     border-bottom:2px solid gray;
-    opacity:1;
+    opacity: 1;
 }
 .logo{ 
     width: 400px;
@@ -101,6 +102,7 @@
     padding: 20px;
     margin-top: 20px;
     background-color: transparent;
+    backdrop-filter: blur(10px);
     border: solid 3px white;
     border-radius: 20px;
     cursor: pointer;
@@ -109,6 +111,25 @@
     position: relative;
 
  }
+ .icons-nav{ 
+    display: none;
+ }
+ .icons-nav p{ 
+    opacity: 0;
+ }
+ .hamburger{
+    display: none;
+ }
+ .Esc{ 
+   display: none;
+}
+#open {
+   opacity: 0;
+}
+#close {
+    opacity: 0;
+}
+
  @keyframes punch { 
     from{left: 100px;} 
     to {left:0px;}
@@ -129,3 +150,134 @@
     0%{border-right: 3px solid transparent;}
     100% {border-right: 3px solid white;}
 }
+
+@media (min-width:299.98px) and (max-width:566.98px) {
+    .Content{ 
+        width: 100%;
+        margin: 0px;
+        height: 350px;
+        padding: 0px;
+        background-size: 100% 350px;
+    }
+    .navbar{ 
+        height: 50px;
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        color:black;
+        background-color:white;
+    }
+    .logo{ 
+        display: none;
+    }
+    .Links{ 
+        width: 270px;
+        display: flex;
+        justify-content: center;
+    }
+    .Links ul{ 
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        width: 100vw;
+        font-size: 1em;
+        cursor: pointer;
+        border-bottom:solid 2px transparent;  
+        display: none;
+        
+    }
+    .fixed{ 
+        height: 50px;
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        color:black;
+        background-color:white;
+    }
+    .register{ 
+        width: 80vw;
+        margin: auto;
+        height: 300px;
+        display: flex;
+        justify-content: start;
+        background-color:transparent;
+    }
+    .register main{ 
+            width:300px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color:transparent;
+     }
+     .register main p{ 
+        width: 300px;
+        color: white;
+        font-size: 1.5em;
+     }
+     .register  h1{ 
+        font-size: 2em;
+        animation-name: tapping;
+        animation-duration: 1s;
+        position: relative;
+        animation-iteration-count: infinite;
+      
+      }
+      .linkedin{ 
+        width: 300px;
+        color: white;
+        font-size: 1.5em;
+        padding: 5px;
+        margin-top: 20px;
+        background-color: transparent;
+        border: solid 3px white;
+        border-radius: 20px;
+        cursor: pointer;
+        animation-name: punch;
+        animation-duration: 0.5s;
+        position: relative;
+    
+     }
+     .icons-nav{ 
+        margin: auto;
+        width: 60vw;
+        font-size: 1.2em;
+        justify-content: space-around;
+        animation-name: punch;
+        animation-duration: 0.5s;
+        position: relative;
+
+     }
+     .hamburger{
+        display: block; 
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+        border: none;
+        background-color: white;
+     }
+     .Esc{
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 50px;
+            border: none;
+            background-color: white;
+            
+     }
+     .icons-nav p{ 
+        opacity: 1;
+     }
+     #open {
+        opacity: 1;
+        display: block;
+    }
+    #close {
+        opacity: 1;
+    }
+    }
+
