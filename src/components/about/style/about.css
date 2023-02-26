@@ -85,7 +85,7 @@
         height: 550px;
     }
     .forimg{ 
-        width: 90vw;
+        width: 80vw;
         margin: auto;
         justify-content: center;
         display: flex;
@@ -105,7 +105,7 @@
         flex-direction: column;
      }
      .AboutMe{ 
-        width: 90vw;
+        width: 80vw;
         margin: auto;
         justify-content: center;
         display: flex;
@@ -132,7 +132,7 @@
         justify-content: space-between;
      }
      .buttons-contact button{ 
-        width: 200px;
+        width: 150px;
         padding: 10px;
         background-color: black;
         color: white;
