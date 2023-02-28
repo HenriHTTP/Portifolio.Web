@@ -4,7 +4,7 @@ import {BsLinkedin} from 'react-icons/bs'
 import { Link } from 'react-scroll';
 import {FaUserAlt} from 'react-icons/fa'
 import {BsHeadphones,BsLaptopFill} from 'react-icons/bs'
-import {AiFillHome,AiOutlineClose} from 'react-icons/ai'
+import {AiFillHome,AiOutlineClose,AiFillProject} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
 export default function navbar(){
   
@@ -51,12 +51,14 @@ export default function navbar(){
                 <li ><Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
                 <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>Sobre</Link></li>
                 <li><Link activeClass="active" to="tec" spy={true} smooth={true} offset={50} duration={500}>Habilidades</Link></li>
+                <li><Link activeClass="active" to="project" spy={true} smooth={true} offset={50} duration={500}>Projetos</Link></li>
                 <li>Contato</li>
                 </ul>
                  <div id="icons"className="icons-nav">
                     <p><Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}><AiFillHome/> </Link></p>
                     <p><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}><FaUserAlt/></Link> </p>
                     <p><Link activeClass="active" to="tec" spy={true} smooth={true} offset={50} duration={500}><BsLaptopFill/></Link> </p>
+                    <p><Link activeClass="active" to="project" spy={true} smooth={true} offset={50} duration={500}><AiFillProject/></Link> </p>
                     <p><BsHeadphones/> </p>
                  </div>
                  <button id="open" className="hamburger" onClick={HandleMenuOn}><GiHamburgerMenu/></button>

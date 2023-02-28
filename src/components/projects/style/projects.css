@@ -1,0 +1,74 @@
+.AboutProjects{ 
+    width: 100%;
+    margin: 0px;
+    height: 1000px;
+    padding: 0px;
+    background:whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.containerCards { 
+    margin: auto;
+    width: 1200px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.CardProjecs{ 
+    width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.CardProjecs:hover{ 
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
+    box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
+}
+.CardProjecs h1{ 
+    font-size: 1em; 
+    text-align: center;
+    padding: 10px;
+ }
+ .Titles { 
+   margin: auto;
+
+ }
+ .Projecth1{ 
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+ }
+ .CardProjecs p{ 
+    padding: 10px; 
+    text-align: left;
+    width: 200px;
+    margin: auto;
+ }
+ .CardProjecs img{ 
+   margin: auto;
+   width: 200px;
+   height: 200px;
+   border-radius: 10px;
+ }
+ .CardProjecs button{ 
+    padding: 10px;
+    color:white; 
+    background-color:black;
+    margin: auto;
+ }
+ .CardProjecs button:hover{
+    opacity:0.7;
+ }
+ @media (min-width:299.98px) and (max-width:566.98px) { 
+    .Titles { 
+        display: none;
+     
+      }
+} 

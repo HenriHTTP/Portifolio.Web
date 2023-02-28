@@ -16,11 +16,12 @@
 .frontend h1{ 
    font-size: 3em;
    text-align: center;
+  
 }
 .frontend h2{ 
     font-size: 2.5em;
-    opacity: 0.7;
     text-align: center;
+    color:gray; 
  }
 
  .card-main{
@@ -40,7 +41,7 @@
  .card-tec h3{ 
     font-size: 3em;
     text-align: center;
-    opacity: 0.7;
+    color:gray; 
   }
 
  
@@ -66,7 +67,6 @@
      }
      .frontend h2{ 
         font-size: 1.2em;
-        opacity: 0.7;
         text-align: center;
      }
      .card-tec p{ 
@@ -76,7 +76,6 @@
       .card-tec h3{ 
         font-size: 2em;
         text-align: center;
-        opacity: 0.7;
       }
       .card-tec{ 
         width: 100px;
