@@ -19,7 +19,7 @@ export default function Project(){
                         <h1>Buscador de CEP</h1>
                         <img src={CEP} alt="img" srcset="" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <button>Ver mais</button>
+                        <button  onClick={() => window.location.href='https://search-cep-alpha.vercel.app/'}>Ver mais</button>
                     </div>
                     <div className="CardProjecs">
                         <h1>Academia</h1>
