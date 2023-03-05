@@ -53,9 +53,8 @@
  }
  .CardProjecs img{ 
    margin: auto;
-   width: 200px;
-   height: 200px;
-   border-radius: 10px;
+   width: 150px;
+   height: 150px;
  }
  .CardProjecs button{ 
     padding: 10px;

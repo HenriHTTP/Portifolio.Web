@@ -68,7 +68,7 @@ export default function navbar(){
             <main>
             <p>Oi tudo bem?</p>
             <h1>Sou Henrique Silva</h1>
-            <button className='linkedin' onClick={() => window.location.href='https://www.linkedin.com/in/henrique-s-da-silva-3115b1228/'} > <BsLinkedin/> Linkedin</button>
+            <button className='linkedin' onClick={() => window.open('https://www.linkedin.com/in/henrique-s-da-silva-3115b1228/')} > <BsLinkedin/> Linkedin</button>
             </main>
             
         </div>
