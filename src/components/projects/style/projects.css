@@ -7,6 +7,9 @@
     display: flex;
     justify-content: center;
 }
+.Tilt{ 
+  width: 200px;
+}
 .containerCards { 
     margin: auto;
     width: 1200px;
@@ -25,11 +28,13 @@
     justify-content: space-around;
     flex-direction: column;
     transition: 0.5s;
+
 }
 .CardProjecs:hover{ 
     -webkit-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
     box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
+    scale: 0.9;
 }
 .CardProjecs h1{ 
     font-size: 1em; 
@@ -38,6 +43,7 @@
  }
  .Titles { 
    margin: auto;
+   padding: 20px;
 
  }
  .Projecth1{ 
