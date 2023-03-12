@@ -18,11 +18,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
+
 }
 .CardProjecs{ 
     width: 300px;
     height: 500px;
-    background: white;
+    background: black;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
@@ -35,12 +36,20 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
     box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
     scale: 0.9;
+    opacity: 0.8;
 }
 .CardProjecs h1{ 
     font-size: 1em; 
     text-align: center;
     padding: 10px;
+    color: white;
  }
+ .CardProjecs h2{ 
+  font-size: 5em; 
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
  .Titles { 
    margin: auto;
    padding: 20px;
@@ -56,6 +65,7 @@
     text-align: left;
     width: 200px;
     margin: auto;
+    color: white;
  }
  .CardProjecs img{ 
    margin: auto;
@@ -68,12 +78,28 @@
     background-color:black;
     margin: auto;
  }
- .CardProjecs button:hover{
-    opacity:0.7;
- }
- @media (min-width:299.98px) and (max-width:566.98px) { 
-    .Titles { 
-        display: none;
-     
-      }
-} 
+  .CardProjecs button:hover{ 
+      opacity: 0.7;
+  }
+
+@media screen and (max-width:620px) { 
+
+    .containerCards { 
+      margin: auto;
+      width: 280px;
+      justify-content: space-around;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 10px;
+  }
+  .CardProjecs{ 
+    margin-top: 20px;
+    width: 270px;
+    height: 450px;
+
+}
+.AboutProjects{ 
+  height: auto;
+}
+}
