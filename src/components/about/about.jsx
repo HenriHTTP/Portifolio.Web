@@ -1,6 +1,7 @@
 import React from 'react'
 import './style/about.css'
 import {AiOutlineLaptop} from 'react-icons/ai'
+import {BsCheck2Square,BsDownload} from 'react-icons/bs'
 
 
 export default function about(){ 
@@ -19,8 +20,8 @@ export default function about(){
         <p>Olá! Deixe-me me apresentar,meu nome é Henrique Lima, tenho 19 anos e sou formado em Análise e Desenvolvimento de Sistemas pela a Escola tecnica estadual Jardim Angela.</p>
         <p>Logo a baixo tem o meu currículo com informçôes mais detalhadas sobre mim. Podemos marcar uma call atráves do meu e-mail que está disponibilizado.</p>
             <div className="buttons-contact">
-                <button>Baixar meu cv</button>
-                <button>Copiar E-mail</button>
+                <button><BsDownload/> Baixar meu cv</button>
+                <button><BsCheck2Square/> Copiar E-mail</button>
             </div>
         </main>
 
