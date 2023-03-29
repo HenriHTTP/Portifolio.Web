@@ -67,7 +67,7 @@ export default function navbar(){
         <div className='register'>
             <main>
             <p>Oi tudo bem?</p>
-            <h1>Sou Henrique Silva</h1>
+            <h2>Sou Henrique Silva</h2>
             <button className='linkedin' onClick={() => window.open('https://www.linkedin.com/in/henrique-s-da-silva-3115b1228/')} > <BsLinkedin/> Linkedin</button>
             </main>
             

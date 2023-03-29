@@ -74,11 +74,10 @@
     justify-content: start;
     background-color:transparent;
 }
-.register  h1{ 
+.register  h2{ 
   font-size: 3em;
   animation-name: tapping;
   animation-duration: 1s;
-  position: relative;
   animation-iteration-count: infinite;
 
 }
@@ -102,13 +101,13 @@
     padding: 20px;
     margin-top: 20px;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+
     border: solid 3px white;
     border-radius: 20px;
     cursor: pointer;
     animation-name: punch;
     animation-duration: 0.5s;
-    position: relative;
+ 
 
  }
  .icons-nav{ 
@@ -136,7 +135,6 @@
 }
 
 .linkedin:hover{ 
-    opacity: 0.5;
     color:whitesmoke;
  }
  @keyframes toppunch { 
@@ -220,11 +218,10 @@
         color: white;
         font-size: 1.5em;
      }
-     .register  h1{ 
+     .register  h2{ 
         font-size: 2em;
         animation-name: tapping;
         animation-duration: 1s;
-        position: relative;
         animation-iteration-count: infinite;
       
       }
@@ -234,7 +231,6 @@
         font-size: 1.5em;
         padding: 5px;
         margin-top: 20px;
-        background-color: transparent;
         border: solid 3px white;
         border-radius: 20px;
         cursor: pointer;
@@ -250,8 +246,6 @@
         justify-content: space-around;
         animation-name: punch;
         animation-duration: 0.5s;
-        position: relative;
-
      }
      .hamburger{
         display: block; 
