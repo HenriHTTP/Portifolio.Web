@@ -9,8 +9,9 @@
     margin: 0px;
     height: 1000px;
     padding: 0px;
-    background-image:url('../img/foto2.jpg');
-    background-repeat: none;
+    background-image:url('../img/foto1.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .navbar{ 
     height: 100px;
