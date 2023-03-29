@@ -101,7 +101,6 @@
     padding: 20px;
     margin-top: 20px;
     background-color: transparent;
-
     border: solid 3px white;
     border-radius: 20px;
     cursor: pointer;
@@ -130,8 +129,8 @@
 }
 
  @keyframes punch { 
-    from{left: 100px;} 
-    to {left:0px;}
+    from{position: relative;left: 100px;} 
+    to {position: relative;left:0px;}
 }
 
 .linkedin:hover{ 
@@ -236,7 +235,7 @@
         cursor: pointer;
         animation-name: punch;
         animation-duration: 0.5s;
-        position: relative;
+     
     
      }
      .icons-nav{ 
@@ -246,6 +245,8 @@
         justify-content: space-around;
         animation-name: punch;
         animation-duration: 0.5s;
+        position: relative;
+
      }
      .hamburger{
         display: block; 
