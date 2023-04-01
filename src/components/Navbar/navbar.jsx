@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import './styles/navbar.css'
 import {BsLinkedin} from 'react-icons/bs'
 import { Link } from 'react-scroll';
@@ -6,19 +6,27 @@ import {FaUserAlt} from 'react-icons/fa'
 import {BsHeadphones,BsLaptopFill} from 'react-icons/bs'
 import {AiFillHome,AiOutlineClose,AiFillProject} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
-export default function navbar(){
-  
+export default function Navbar(){
 
-   window.onscroll = () => { 
-    let menu = document.getElementById('nav')
+    const [menuclass,setmenuclass]= useState('navbar')
+    useEffect(() => {
+    // Utilizando useEffect para adicionar o listener de scroll ao carregar o componente
+    window.addEventListener('scroll', handleScroll);
 
-    if (window.scrollY >= 1) {
-        menu.className = 'fixed'
-    }else{
-        menu.className = 'navbar' 
+    // Utilizando useEffect para remover o listener de scroll ao desmontar o componente
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+    }, [])
+
+    // função  para mudar classe de compenente nav
+    
+    let handleScroll = () => { 
+    window.scrollY >= 1 ? setmenuclass('fixed') :setmenuclass('navbar')
     }
-   
-}
+
+    // Função para exibir o menu
+
     let HandleMenuOn = ( ) => { 
         var icons = document.getElementById('icons')
         var open = document.getElementById('open')
@@ -28,6 +36,9 @@ export default function navbar(){
         close.style.display = 'block'
         open.style.display = 'none'
     }
+
+    //funcão   para  ocultar menu 
+
     let HandleMenuOff = ( ) => { 
         var icons = document.getElementById('icons')
         var open = document.getElementById('open')
@@ -41,7 +52,7 @@ export default function navbar(){
     return(
         <>
         <div className='Content' id='home'> 
-        <div id="nav" className='navbar'>  
+        <div id="nav" className={menuclass}>  
         <div className='logo'>
                 <h1>&lt;he/&gt;  </h1>
             </div>
