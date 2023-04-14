@@ -58,7 +58,7 @@
     width: 720px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
  }
  .buttons-contact button{ 
     width: 300px;
@@ -129,7 +129,7 @@
         width: 90vw;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
      }
      .buttons-contact button{ 
         width: 150px;
