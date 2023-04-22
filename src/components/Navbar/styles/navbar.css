@@ -11,7 +11,7 @@
     padding: 0px;
     background-image:url('../img/foto1.gif');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 .navbar{ 
     height: 100px;

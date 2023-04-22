@@ -7,8 +7,8 @@ export default function info (){
         <>
         <div id='tec' className='AboutContent'> 
             <div className="frontend">
-                <h1>Habilidades</h1>
-                <h2>Skill</h2>
+                <h1>Software</h1>
+                <h2>Skills</h2>
                
                
             <div className="card-main">

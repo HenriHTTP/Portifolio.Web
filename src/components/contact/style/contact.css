@@ -1,0 +1,41 @@
+.ContactContainer{ 
+    width: 100%;
+    margin: 0px;
+    height: 500px;
+    padding: 0px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Contact{ 
+    width: 900px;
+    margin:auto;
+    height: 400px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Contact h1{ 
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+.ContactContent{ 
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+ 
+}
+.ContactContent button{ 
+    width: 200px;
+    margin: 0px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    font-size: 1.2em;
+}

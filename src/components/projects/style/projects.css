@@ -23,7 +23,7 @@
 .CardProjecs{ 
     width: 300px;
     height: 500px;
-    background: black;
+    background: white;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
@@ -40,13 +40,13 @@
     font-size: 1em; 
     text-align: center;
     padding: 10px;
-    color: white;
+    color: black;
  }
  .CardProjecs h2{ 
-  font-size: 5em; 
+  font-size: 2em; 
   text-align: center;
   padding: 10px;
-  color: white;
+  color: black;
 }
  .Titles { 
    margin: auto;
@@ -54,16 +54,21 @@
 
  }
  .Projecth1{ 
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     padding: 10px;
  }
+ .Projecth3{ 
+  font-size: 1.5em;
+  text-align: center;
+  color: gray;
+}
  .CardProjecs p{ 
     padding: 10px; 
     text-align: left;
     width: 200px;
     margin: auto;
-    color: white;
+    color: gray;
  }
  .CardProjecs img{ 
    margin: auto;

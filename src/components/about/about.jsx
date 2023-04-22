@@ -20,9 +20,9 @@ export default function about(){
         </div>
         <div className='AboutMe'> 
         <main>
-        <h1>Desenvolvedor Front-end com experiências em React, React-native, e JavaScript.</h1>
-        <p>Olá! Deixe-me me apresentar,meu nome é Henrique Lima, tenho 19 anos e sou formado em Análise e Desenvolvimento de Sistemas pela a Escola tecnica estadual Jardim Angela.</p>
-        <p>Logo a baixo tem o meu currículo com informçôes mais detalhadas sobre mim. Podemos marcar uma call atráves do meu e-mail que está disponibilizado.</p>
+        <h1>Desenvolvedor Front-end</h1>
+        <p>Olá!,meu nome é Henrique Lima, tenho 19 anos e tenho formação em Análise e Desenvolvimento de Sistemas e desenvolvo aplicações com react</p>
+        <p>logo a baixo tem o meu currículo com informçôes mais detalhadas sobre mim.</p>
             <div className="buttons-contact">
                 <button  onClick={openCV}><BsDownload /> Baixar meu cv</button>
             </div>
