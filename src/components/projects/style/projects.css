@@ -106,3 +106,48 @@
   height: auto;
 }
 }
+
+
+@media (min-width:621px) and (max-width:900px) { 
+
+  .containerCards { 
+    margin: auto;
+    width: 580px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.CardProjecs{ 
+  margin-top: 20px;
+  width: 270px;
+  height: 450px;
+
+}
+.AboutProjects{ 
+height: auto;
+}
+}
+
+@media (min-width:901px) and (max-width:1280px) { 
+
+  .containerCards { 
+    margin: auto;
+    width: 880px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.CardProjecs{ 
+  margin-top: 20px;
+  width: 270px;
+  height: 450px;
+
+}
+.AboutProjects{ 
+height: auto;
+}
+}

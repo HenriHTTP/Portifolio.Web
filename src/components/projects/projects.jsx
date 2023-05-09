@@ -25,8 +25,8 @@ export default function Project(){
                         <p>Ao inserir o CEP na interface, a aplicação faz uma requisição à API e retorna informações de logradouro, bairro, cidade e estado ao usuario</p>
                         <button  onClick={() => window.open('https://search-cep-alpha.vercel.app/')}>ver mais</button>
                     </div>
-                    <div className="CardProjecs">
-                        <h1>Academia</h1>
+                    <div  onClick={() => window.open('https://github.com/HenriHTTP?tab=repositories')} className="CardProjecs">
+                        <h1>outros projetos</h1>
                         
                       
                         <p>Em desenvolvimento</p>

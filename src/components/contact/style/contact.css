@@ -39,3 +39,38 @@
     border: none;
     font-size: 1.2em;
 }
+
+@media (min-width:621px) and (max-width:900px) { 
+    .Contact{ 
+        width: 500px;
+
+    }
+    .ContactContent{ 
+        width: 500px;
+    }
+
+}
+@media (min-width:901px) and (max-width:1280px) { 
+    .Contact{ 
+        width: 800px;
+    }
+    .ContactContent{ 
+        width: 880px;
+    }
+  
+}
+
+@media (min-width:299.98px) and (max-width:620px) {
+    .Contact{ 
+        width: 320px;
+
+    }
+    .ContactContent{ 
+        width: 320px;
+        flex-direction: column;    
+    }
+    .ContactContent button{ 
+        margin: auto;
+    }
+
+}

@@ -47,7 +47,7 @@
 
  
 
-  @media (min-width:299.98px) and (max-width:566.98px) {
+  @media (min-width:299.98px) and (max-width:620px) {
 
     .AboutContent{ 
         width: 100%;
@@ -56,10 +56,11 @@
         background:white;
         display: flex;
         justify-content: center;
-        height: 350px;
+        height: 500px;
+      
     }
     .frontend{ 
-        height: 250px;
+        height: 100px;
         width: 90vw;
     }
     .frontend h1{ 
@@ -87,3 +88,44 @@
      }
     
   }
+
+  @media (min-width:621px) and (max-width:900px) { 
+   .AboutContent{ 
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      background:white;
+      display: flex;
+      justify-content: center;
+      height: 800px;
+  }
+  .frontend{ 
+      height: 250px;
+      width: 90vw;
+  }
+  .frontend h1{ 
+      font-size: 1.5em;
+      text-align: center;
+   }
+   .frontend h2{ 
+      font-size: 1.2em;
+      text-align: center;
+   }
+   .card-tec p{ 
+      font-size: 1em;
+      text-align: center;
+    }
+    .card-tec h3{ 
+      font-size: 2em;
+      text-align: center;
+    }
+    .card-tec{ 
+      width: 100px;
+      height: 70px;
+   }
+   .card-main{
+     margin: auto;
+     width: 80%;
+   
+   }
+}

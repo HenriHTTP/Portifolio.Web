@@ -62,14 +62,14 @@ export default function Navbar(){
                 <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>Sobre</Link></li>
                 <li><Link activeClass="active" to="tec" spy={true} smooth={true} offset={50} duration={500}>Habilidades</Link></li>
                 <li><Link activeClass="active" to="project" spy={true} smooth={true} offset={50} duration={500}>Projetos</Link></li>
-                <li>Contato</li>
+                <li><Link activeClass="active" to="contacts" spy={true} smooth={true} offset={50} duration={500}>Contato</Link></li>
                 </ul>
                  <div id="icons"className="icons-nav">
                     <p><Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}><AiFillHome/> </Link></p>
                     <p><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}><FaUserAlt/></Link> </p>
                     <p><Link activeClass="active" to="tec" spy={true} smooth={true} offset={50} duration={500}><BsLaptopFill/></Link> </p>
                     <p><Link activeClass="active" to="project" spy={true} smooth={true} offset={50} duration={500}><AiFillProject/></Link> </p>
-                    <p><BsHeadphones/> </p>
+                    <p><Link activeClass="active" to="contacts" spy={true} smooth={true} offset={50} duration={500}><BsHeadphones/></Link> </p>
                  </div>
                  <button id="open" className="hamburger" onClick={HandleMenuOn}><GiHamburgerMenu/></button>
                  <button id="close" className="Esc" onClick={HandleMenuOff}><AiOutlineClose/></button>

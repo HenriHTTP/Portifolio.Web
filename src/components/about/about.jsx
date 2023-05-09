@@ -7,7 +7,7 @@ import {BsDownload} from 'react-icons/bs'
 export default function about(){ 
     const openCV = () => {
 
-    window.open('https://drive.google.com/file/d/1gAnGzMcCuAIsrNWrM9YRn4v0-wTWCfO0/view')
+    window.open('https://drive.google.com/file/d/1iozr7nIA-EimhAwrENOy4n6jFChMIr_l/view')
     }
     return( 
         <>

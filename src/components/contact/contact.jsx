@@ -16,7 +16,7 @@ return (
     <>
     <div className='ContactContainer'>
         
-        <div className='Contact'>
+        <div id='contacts'className='Contact'>
         <h1>contatos</h1>
       
         
