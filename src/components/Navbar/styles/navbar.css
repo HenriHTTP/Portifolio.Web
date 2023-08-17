@@ -63,7 +63,7 @@
 }
 .Links ul li:hover{ 
     border-bottom:solid 2px white;
-    transition-delay: 0s;
+    transition-delay: 0.5s;
 }
 
 

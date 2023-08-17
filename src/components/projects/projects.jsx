@@ -30,7 +30,7 @@ export default function Project(){
                     <div  onClick={() => window.open('https://github.com/HenriHTTP?tab=repositories')} className="CardProjecs">
                         
                       
-                        <p>see more project</p>
+                      
                        {/* <button disabled><BsCheck2Square/>Ver mais</button>-->*/}
                     </div> 
                     </div>
