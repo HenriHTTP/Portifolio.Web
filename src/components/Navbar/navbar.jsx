@@ -59,10 +59,10 @@ export default function Navbar(){
             <div className='Links'>
                 <ul>
                 <li ><Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
-                <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>Sobre</Link></li>
-                <li><Link activeClass="active" to="tec" spy={true} smooth={true} offset={50} duration={500}>Habilidades</Link></li>
-                <li><Link activeClass="active" to="project" spy={true} smooth={true} offset={50} duration={500}>Projetos</Link></li>
-                <li><Link activeClass="active" to="contacts" spy={true} smooth={true} offset={50} duration={500}>Contato</Link></li>
+                <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
+                <li><Link activeClass="active" to="tec" spy={true} smooth={true} offset={50} duration={500}>Skills</Link></li>
+                <li><Link activeClass="active" to="project" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
+                <li><Link activeClass="active" to="contacts" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
                 </ul>
                  <div id="icons"className="icons-nav">
                     <p><Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}><AiFillHome/> </Link></p>
@@ -77,8 +77,8 @@ export default function Navbar(){
         </div>
         <div className='register'>
             <main>
-            <p>Oi, Sou Henrique Silva</p>
-            <h2>Desenvolvedor React</h2>
+            <p>Hi,i'm Henrique Silva</p>
+            <h2>Software developer</h2>
             <button className='linkedin' onClick={() => window.open('https://www.linkedin.com/in/henrique-s-da-silva-3115b1228/')} > <BsLinkedin/> Linkedin</button>
             </main>
             
