@@ -1,47 +1,52 @@
 .AboutContent{ 
     width: 100%;
     margin: 0px;
-    height: 1000px;
     padding: 0px;
-    background:white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    height: 400px;
 
 }
 .frontend{ 
     margin: auto;
-    height: 600px;
     width: 800px;
 }
 .frontend h1{ 
    font-size: 2em;
    text-align: center;
+   color: #091f74;
   
 }
 .frontend h2{ 
     font-size: 1.5em;
     text-align: center;
     color:gray; 
+    padding-bottom:50px ;
  }
 
  .card-main{
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
  }
  .card-tec{ 
-    width: 300px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
+    background-color:#091f74 ;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
  }
  .card-tec p{ 
    font-size: 1.25em;
    text-align: center;
+   margin: auto;
+   color: white;
  }
  .card-tec h3{ 
     font-size: 1.5em;
     text-align: center;
-    color:gray; 
+    color:white;
+    margin: auto; 
   }
   
 
@@ -56,7 +61,7 @@
         background:white;
         display: flex;
         justify-content: center;
-        height: 500px;
+        height: 300px;
       
     }
     .frontend{ 
@@ -72,15 +77,14 @@
         text-align: center;
      }
      .card-tec p{ 
-        font-size: 1em;
-        text-align: center;
+        display: none;
       }
       .card-tec h3{ 
         font-size: 2em;
         text-align: center;
       }
       .card-tec{ 
-        width: 100px;
+        width: 70px;
         height: 70px;
      }
      .card-main{
@@ -97,7 +101,7 @@
       background:white;
       display: flex;
       justify-content: center;
-      height: 800px;
+      height: 300px;
   }
   .frontend{ 
       height: 250px;
@@ -121,7 +125,7 @@
     }
     .card-tec{ 
       width: 100px;
-      height: 70px;
+      height: 100px;
    }
    .card-main{
      margin: auto;

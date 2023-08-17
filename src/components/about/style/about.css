@@ -3,7 +3,7 @@
     margin: 0px;
     height: 1000px;
     padding: 0px;
-    background:whitesmoke;
+    background:white;
     display: flex;
     justify-content: space-around;
 }
@@ -19,7 +19,7 @@
     margin: auto;
 }
 .AboutMe h1{ 
-    color:black;
+    color:#091f74;
     font-size: 2em;
     text-align: left;
     padding: 20px;
@@ -53,6 +53,7 @@
     font-size: 15em;
     text-align: center;
     margin: auto;
+    color:#091f74;
  }
  .buttons-contact{ 
     width:500px;
@@ -63,7 +64,7 @@
  .buttons-contact button{ 
     width: 200px;
     padding: 10px;
-    background-color: black;
+    background-color: #091f74;
     color: white;
     border: solid 2px white;
     cursor: pointer;
@@ -79,11 +80,10 @@
         width: 100%;
         margin: 0px;
         padding: 0px;
-        background:whitesmoke;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        height: 550px;
+        height: 500px;
     }
     .forimg{ 
         width: 80vw;
@@ -110,11 +110,10 @@
         margin: auto;
         justify-content: center;
         display: flex;
-        height: 500px;
+        height: 300px;
         padding: 20px;
     }
     .AboutMe h1{ 
-        color:black;
         font-size: 1.5em;
         text-align: center;
         padding: 10px;
@@ -135,7 +134,6 @@
      .buttons-contact button{ 
         width: 150px;
         padding: 10px;
-        background-color: black;
         color: white;
         border: solid 2px white;
         cursor: pointer;
@@ -151,7 +149,6 @@
         margin: 0px;
         height: 800px;
         padding: 0px;
-        background:whitesmoke;
         display: flex;
         justify-content: space-around;
     }

@@ -1,6 +1,7 @@
 import './style/projects.css'
-import {SiMyanimelist} from 'react-icons/si'
+import {AiFillHome} from 'react-icons/ai'
 import{BsMap} from 'react-icons/bs'
+import{BiNotepad} from 'react-icons/bi'
 
 
 export default function Project(){ 
@@ -8,28 +9,28 @@ export default function Project(){
         <>
             <div id="project" className="AboutProjects">
                 <div className="Titles">
-                    <h1 className='Projecth1'> Projetos</h1>
-                    <h3 className='Projecth3'> Pessoais</h3>
+                    <h1 className='Projecth1'>Personal</h1>
+                    <h3 className='Projecth3'>Projects</h3>
                     <div className="containerCards">
-                    <div className="CardProjecs" onClick={() => window.open('https://anime-henrihttp.vercel.app/')}>
-                        <h1>Buscador de animes</h1>
-                        <h2><SiMyanimelist/></h2>
+                    <div className="CardProjecs" onClick={() => window.open('https://github.com/HenriHTTP/api-todolist')}>
+                        <h1>To do List API</h1>
+                        <h2><AiFillHome/></h2>
                      
-                        <p>Ao acessar, o usuário poderá buscar pelo título do anime e ter acesso a uma série de dados como notas e avaliações de outros usuários, entre outros atributos do anime pesquisado.</p>
-                        <button  onClick={() => window.open('https://anime-henrihttp.vercel.app/')}>Ver mais</button>
+                        <p></p>
+                        <button  onClick={() => window.open('https://front-end-produtos.vercel.app/')}>see more</button>
                     </div>
-                    <div className="CardProjecs" onClick={() => window.open('https://search-cep-alpha.vercel.app/')}>
-                        <h1>Buscador de CEP</h1>
-                        <h2><BsMap/></h2>
+                    <div className="CardProjecs" onClick={() => window.open('https://github.com/HenriHTTP/mvc-express')}>
+                        <h1>MVC notes</h1>
+                        <h2><BiNotepad/></h2>
+                        <p></p>
                         
-                        <p>Ao inserir o CEP na interface, a aplicação faz uma requisição à API e retorna informações de logradouro, bairro, cidade e estado ao usuario</p>
-                        <button  onClick={() => window.open('https://search-cep-alpha.vercel.app/')}>ver mais</button>
+        
+                        <button  onClick={() => window.open('https://github.com/HenriHTTP/mvc-express')}>see more</button>
                     </div>
                     <div  onClick={() => window.open('https://github.com/HenriHTTP?tab=repositories')} className="CardProjecs">
-                        <h1>outros projetos</h1>
                         
                       
-                        <p>Em desenvolvimento</p>
+                        <p>see more project</p>
                        {/* <button disabled><BsCheck2Square/>Ver mais</button>-->*/}
                     </div> 
                     </div>

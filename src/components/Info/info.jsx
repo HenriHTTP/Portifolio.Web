@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/info.css'
-import { SiTypescript,SiCsswizardry,SiJavascript,SiPython,SiHtml5,SiReact} from "react-icons/si";
+import {SiReact,SiExpress,SiMysql} from "react-icons/si";
+import{IoLogoNodejs}from "react-icons/io"
 
 export default function info (){
     return(
@@ -12,39 +13,25 @@ export default function info (){
                
                
             <div className="card-main">
-               <div className="card-tec">
-               <h3><SiHtml5/></h3>
-               <p>HTML</p>
+               
+               <div className="card-tec"> 
+               <h3><IoLogoNodejs/></h3>
+               <p>Node</p> 
                </div>
                
                <div className="card-tec"> 
-               <h3><SiCsswizardry/></h3>
-               <p>CSS</p> 
+               <h3><SiExpress/></h3>
+               <p>Express</p> 
                </div>
 
                <div className="card-tec"> 
-               <h3><SiJavascript/></h3>
-               <p>Javascript</p> 
-               </div>
-               
-               <div className="card-tec"> 
-               <h3><SiTypescript/></h3>
-               <p>Typescript</p> 
-               </div>
-
-               <div className="card-tec"> 
-               <h3><SiPython/></h3>
-               <p>Python</p> 
+               <h3><SiMysql/></h3>
+               <p>Mysql</p> 
                </div>
 
                <div className="card-tec"> 
                <h3><SiReact/></h3>
                <p>React</p> 
-               </div>
-
-               <div className="card-tec"> 
-               <h3><SiReact/></h3>
-               <p>React Native</p> 
                </div>
                
             </div>
