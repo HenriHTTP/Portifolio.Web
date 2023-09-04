@@ -18,7 +18,10 @@ export default function About(){
         <div id='about' className='content'> 
         <div className='forimg'> 
             <main>
-            <h1 data-aos="fade-up-right"><AiOutlineLaptop/></h1>
+              
+                    <h1 data-aos="fade-up-right" ><AiOutlineLaptop/></h1>
+          
+      
             </main>
        
         </div>
