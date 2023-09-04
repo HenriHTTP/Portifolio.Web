@@ -161,7 +161,6 @@
     }
     .AboutMe p{ 
         color:gray;
-        font-size: 1em;
         text-align: left;
         padding: 20px;
         width: 70%;
@@ -172,8 +171,6 @@
         margin: auto;
      }
      .AboutMe h1{ 
-        color:black;
-        font-size: 1.25em;
         padding: 20px;
         margin: auto;
     }
@@ -194,6 +191,7 @@
         background:white;
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
     }
     .AboutMe{ 
         width: 90vw;
@@ -201,22 +199,34 @@
         margin: auto;
         justify-content: center;
         display: flex;
+        height: auto;
     }
     .AboutMe p{ 
         color:gray;
         font-size: 1em;
-        text-align: justify;
+        text-align: center;
         padding: 20px;
         width: 70%;
+        margin: auto;
     }
      .AboutMe h1{ 
-        color:black;
         font-size: 1.25em;
         padding: 20px;
         margin: auto;
     }
+
+    .AboutMe main{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .forimg h1{ 
+        font-size: 7em;
+        
+    }
     .forimg{ 
-        display: none;
+        height: 20%;
+        
     }
 
 }

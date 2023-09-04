@@ -9,12 +9,12 @@
     margin: 0px;
     height: 1000px;
     padding: 0px;
-    background-image:url('../img/banner2.jpg');
+    background-image:url('../img/banner.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .navbar{ 
-    height: 100px;
+    height: 60px;
     width: 80vw;
     margin: auto;
     display: flex;
@@ -23,7 +23,7 @@
     color:white;
 }
 .fixed{ 
-    height: 100px;
+    height: 60px;
     width: 100%;
     margin: auto;
     display: flex;
@@ -32,9 +32,9 @@
     color:black;
     position: fixed;
     background-color:white;
-    top: 0px;
+    margin: 0;
     border-bottom:2px solid gray;
-    opacity: 1;
+    z-index: 100;
 }
 .logo{ 
     width: 400px;
@@ -43,7 +43,7 @@
 }
 .logo h1{ 
     margin: auto;
-    font-size: 2.8em;
+    font-size: 2em;
 }
 .Links{ 
     width: 900px;
@@ -56,7 +56,7 @@
     justify-content: space-around;
     margin: auto;
     width: 100vw;
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
     border-bottom:solid 2px transparent;
     
@@ -413,7 +413,6 @@
  @media (min-width:901px) and (max-width:1280px) {
 .logo h1{ 
     margin: auto;
-    font-size: 1.75em;
 
 }
 .logo { 
@@ -431,7 +430,6 @@
 .linkedin{ 
     width: 300px;
   
-    font-size: 1.25em;
    
  
 
@@ -439,17 +437,7 @@
  .fixed{ 
     height:75px;
 }
-.register  h2{ 
-    font-size: 1.75em;
 
-  
-  }
-  .register main p{ 
-    font-size: 1.5em;
- }
- .register main p{ 
-    font-size: 1.5em;
- }
  .register{ 
     width: 80vw;
     margin: auto;

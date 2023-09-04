@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style/info.css'
 import {SiReact,SiExpress,SiMysql} from "react-icons/si";
 import{IoLogoNodejs}from "react-icons/io"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
-export default function info (){
+export default function Info (){
+    useEffect(() => {
+        Aos.init();
+      }, []);
     return(
         <>
         <div id='tec' className='AboutContent'> 
@@ -12,7 +17,7 @@ export default function info (){
                 <h2>Skills</h2>
                
                
-            <div className="card-main">
+            <div className="card-main"  data-aos="zoom-in">
                
                <div className="card-tec"> 
                <h3><IoLogoNodejs/></h3>
