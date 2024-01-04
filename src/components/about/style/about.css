@@ -1,67 +1,37 @@
-.content{ 
+.content {
     width: 100%;
-    margin: 0px;
-    height: 1000px;
-    padding: 0px;
-    background:white;
+    margin: 0;
+    padding: 0;
+    background: white;
     display: flex;
     justify-content: space-around;
-}
-
-.AboutMe{ 
-    width: 40vw;
-    height: 600px;
-    margin: auto;
-    justify-content: center;
-    display: flex;
-}
-.AboutMe main { 
-    margin: auto;
-}
-.AboutMe h1{ 
-    color:#091f74;
-    font-size: 2em;
-    text-align: left;
-    padding: 20px;
-    margin: auto;
-}
-.AboutMe p{ 
-    color:gray;
-    font-size: 1.25em;
-    text-align: left;
-    padding: 20px;
-    width: 500px;
-}
-.forimg{ 
-    width: 40vw;
-    height: 600px;
-    margin: auto;
-    justify-content: center;
-    display: flex;
-}
-.forimg main{ 
-    margin: auto;
-    padding: 20px;
-    font-size: 1.5em;
-    display:flex ;
-    justify-content:center ;
     flex-direction: column;
- }
+}
 
-
- .forimg h1{ 
-    font-size: 15em;
-    text-align: center;
+.container-content {
+    width: 40%;
     margin: auto;
-    color: #091f74;
- }
- .buttons-contact{ 
-    width:500px;
+    justify-content: center;
+    display: flex;
+}
+
+.container-content article {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons-section {
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-around;
- }
- .buttons-contact button{ 
+    padding: 20px;
+}
+
+.buttons-section button {
     width: 200px;
     padding: 10px;
     background-color: #091f74;
@@ -69,174 +39,36 @@
     border: solid 2px white;
     cursor: pointer;
     border-radius: 20px;
- }
- .buttons-contact button:hover{ 
-    opacity: 0.7;
- }
+    font-size: 1em;
+    margin: auto;
+}
 
- @media (min-width:299.98px) and (max-width:620px) {
-    
-    .content{ 
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        height: 500px;
+.buttons-section button:hover {
+    opacity: 0.7;
+}
+
+@media (min-width: 300px) and (max-width: 620px) {
+    .container-content {
+        width: 90%;
     }
-    .forimg{ 
-        width: 80vw;
-        margin: auto;
-        justify-content: center;
-        display: flex;
-        height: 130px;
-    }
-    .forimg h1{ 
-        font-size: 5em;
-        text-align: center;
-        margin: auto;
-     }
-     .forimg main{ 
-        margin: auto;
-        font-size: 1.5em;
-        width: 200px;
-        height: 200px;
-        display:flex ;
-        justify-content:center ;
-        flex-direction: column;
-     }
-     .AboutMe{ 
-        width: 80vw;
-        margin: auto;
-        justify-content: center;
-        display: flex;
-        height: 300px;
-        padding: 20px;
-    }
-    .AboutMe h1{ 
-        font-size: 1.5em;
-        text-align: center;
-        padding: 10px;
-    }
-    .AboutMe p{ 
-        color:gray;
-        font-size: 1em;
-        text-align:left;
-        padding: 10px;
-        width: 70vw;
-    }
-    .buttons-contact{ 
-        width: 90vw;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
-     }
-     .buttons-contact button{ 
+
+    .buttons-section button {
         width: 150px;
         padding: 10px;
-        color: white;
-        border: solid 2px white;
-        cursor: pointer;
-     }
-     .buttons-contact button:hover{ 
-        opacity: 0.7;
-     }
-
+    }
 }
-@media (min-width:901px) and (max-width:1280px){ 
-    .content{ 
-        width: 100%;
-        margin: 0px;
-        height: 800px;
-        padding: 0px;
-        display: flex;
-        justify-content: space-around;
-    }
-    .AboutMe{ 
-        width: 60vw;
-        height: 500px;
-        margin: auto;
-        justify-content: center;
-        display: flex;
-    }
-    .AboutMe p{ 
-        color:gray;
-        text-align: left;
-        padding: 20px;
+
+@media (min-width: 901px) and (max-width: 1280px) {
+    .container-content {
         width: 70%;
     }
-    .forimg h1{ 
-        font-size: 7em;
-        text-align: center;
-        margin: auto;
-     }
-     .AboutMe h1{ 
-        padding: 20px;
-        margin: auto;
-    }
-    .forimg{ 
-        width: 30vw;
-    }
-    .forimg main{ 
-        margin: auto;
-        font-size: 1.5em;
-        width: 200px;
-        height: 300px;
-        display:flex ;
-        justify-content:center ;
-        flex-direction: column;
-     }
-   
+
 }
 
 
-@media (min-width:621px) and (max-width:900px) { 
-    .content{ 
-        width: 100%;
-        margin: 0px;
-        height: 800px;
-        padding: 0px;
-        background:white;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-    }
-    .AboutMe{ 
-        width: 90vw;
-        height: 500px;
-        margin: auto;
-        justify-content: center;
-        display: flex;
-        height: auto;
-    }
- 
-    .AboutMe p{ 
-        color:gray;
-        font-size: 1em;
-        text-align: center;
-        padding: 20px;
+@media (min-width: 621px) and (max-width: 900px) {
+    .container-content {
         width: 70%;
-        margin: auto;
-    }
-     .AboutMe h1{ 
-        font-size: 1.25em;
-        padding: 20px;
-        margin: auto;
-    }
-
-    .AboutMe main{ 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .forimg h1{ 
-        font-size: 7em;
-        
-    }
-    .forimg{ 
-        height: 20%;
-        
     }
 
 }

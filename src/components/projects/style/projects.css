@@ -1,15 +1,13 @@
-.AboutProjects{ 
+.about-projects {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-    background:white;
+    margin: 0;
+    padding: 0;
+    background: white;
     display: flex;
     justify-content: center;
 }
-.Tilt{ 
-  width: 200px;
-}
-.containerCards { 
+
+.container {
     margin: auto;
     width: 1200px;
     justify-content: space-around;
@@ -18,132 +16,133 @@
     padding: 10px;
 
 }
-.CardProjecs{ 
+
+.Card {
     width: 90%;
     height: 300px;
-    background: #091f74;
+    background: white;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     transition: 0.5s;
-    cursor:pointer;
+    cursor: pointer;
     margin: auto;
     margin-top: 20px;
 
 
 }
-.CardProjecs:hover{ 
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
-    box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
-}
-.CardProjecs h1{ 
-    font-size: 1em; 
-    text-align: center;
-    padding: 10px;
-    color: white;
- }
- .CardProjecs h2{ 
-  font-size: 2em; 
-  text-align: center;
-  padding: 10px;
-  color: white;
-}
- .Titles { 
-   margin: auto;
-   padding: 20px;
 
- }
- .Projecth1{ 
-    font-size: 2em;
-    text-align: center;
-    padding: 10px;
-    color:#091f74; 
- }
- .Projecth3{ 
-  font-size: 1.5em;
-  text-align: center;
-  color: gray;
+.Card:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(227, 227, 227, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(227, 227, 227, 1);
+    box-shadow: 10px 10px 5px 0px rgba(227, 227, 227, 1);
 }
- .CardProjecs p{ 
-    padding: 10px; 
-    text-align: left;
-    width: 200px;
+
+/*.Card h1 {*/
+/*    font-size: 1em;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    color: white;*/
+/*}*/
+
+/*.Card h2 {*/
+/*    font-size: 2em;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    color: white;*/
+/*}*/
+
+.titles {
     margin: auto;
-    color: whitesmoke;
- }
- .CardProjecs img{ 
-   margin: auto;
-   width: 150px;
-   height: 150px;
- }
- .CardProjecs button{ 
-    padding: 10px;
-    color:#091f74; 
-    background-color:white;
+    padding: 20px;
+
+}
+
+/*.Card p {*/
+/*    padding: 10px;*/
+/*    text-align: left;*/
+/*    margin: auto;*/
+/*    color: whitesmoke;*/
+/*}*/
+
+.Card img {
     margin: auto;
-    border-radius: 20px;
-    font-size: 0.9em;
-    cursor:pointer; 
- }
-  .CardProjecs button:hover{ 
-      opacity: 0.7;
-  }
+    width: 150px;
+    height: 150px;
+}
 
-@media screen and (max-width:620px) { 
+/*.Card button {*/
+/*    padding: 10px;*/
+/*    color: #091f74;*/
+/*    background-color: white;*/
+/*    margin: auto;*/
+/*    border-radius: 20px;*/
+/*    font-size: 0.9em;*/
+/*    cursor: pointer;*/
+/*}*/
 
-    .containerCards { 
-      margin: auto;
-      width: 100%;
-      justify-content: space-around;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      padding: 10px;
-  }
-  .AboutProjects{ 
-  height: auto;
-  }
+/*.Card button:hover {*/
+/*    opacity: 0.7;*/
+/*}*/
+
+@media screen and (max-width: 620px) {
+
+    .container {
+        margin: auto;
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .about-projects {
+        height: auto;
+    }
 }
 
 
-@media (min-width:621px) and (max-width:900px) { 
+@media (min-width: 621px) and (max-width: 900px) {
 
-  .containerCards { 
-    margin: auto;
-    width: 680px;
-    padding: 10px;
-}
-.CardProjecs{ 
-  margin-top: 20px;
-  width: 100%;
-  height: 350px;
+    .container {
+        margin: auto;
+        width: 680px;
+        padding: 10px;
+    }
 
+    .Card {
+        margin-top: 20px;
+        width: 100%;
+        height: 350px;
+
+    }
+
+    .about-projects {
+        height: auto;
+    }
 }
 
-.AboutProjects{ 
-height: auto;
-}
-}
+@media (min-width: 901px) and (max-width: 1280px) {
 
-@media (min-width:901px) and (max-width:1280px) { 
+    .container {
+        margin: auto;
+        width: 880px;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 
-  .containerCards { 
-    margin: auto;
-    width: 880px;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-.CardProjecs{ 
-  margin-top: 20px;
-  width: 100%;
-  height: 450px;
+    .Card {
+        margin-top: 20px;
+        width: 100%;
+        height: 450px;
 
-}
-.AboutProjects{ 
-height: auto;
-}
+    }
+
+    .about-projects {
+        height: auto;
+    }
 }
