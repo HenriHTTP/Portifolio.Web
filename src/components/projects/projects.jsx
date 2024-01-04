@@ -1,46 +1,56 @@
 import './style/projects.css'
 import {AiFillHome} from 'react-icons/ai'
-import{BsMap} from 'react-icons/bs'
-import{BiNotepad} from 'react-icons/bi'
+import {BsMap} from 'react-icons/bs'
+import {BiNotepad} from 'react-icons/bi'
+import '../global/styles.css'
 
-
-export default function Project(){ 
-    return(
+export default function Project() {
+    return (
         <>
-            <div id="project" className="AboutProjects">
-                <div className="Titles">
-                    <h1 className='Projecth1'>Personal</h1>
-                    <h3 className='Projecth3'>Projects</h3>
+            <section id="project" className="about-projects">
+                <article className="titles">
+                    <h1 className='title'>Projects</h1>
+                    <h3 className='subtitle'>development</h3>
+                    <main className="container">
 
-                    <div className="containerCards">
+                        <div data-aos="flip-up" className="Card"
+                             onClick={() => window.open('https://github.com/HenriHTTP/express-mongo-docker-api')}>
+                            <h1 className="subtitle"> express-mongo-docker-api</h1>
+                            <h2 className="title"><AiFillHome/></h2>
+                            <p className="text">Project made for learning rest api architecture, this api have services
+                                for user
+                                registration and login per token </p>
+                            <button className="normal-button"
+                                    onClick={() => window.open('https://github.com/HenriHTTP/express-mongo-docker-api')}>see
+                                more
+                            </button>
+                        </div>
 
-                    <div data-aos="flip-up" className="CardProjecs" onClick={() => window.open('https://github.com/HenriHTTP/api-todolist')}>
-                        <h1>To do List API</h1>
-                        <h2><AiFillHome/></h2>
-                     
-                        <p></p>
-                        <button  onClick={() => window.open('https://front-end-produtos.vercel.app/')}>see more</button>
-                    </div>
+                        <div data-aos="flip-up" className="Card"
+                             onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>
+                            <h1 className="subtitle">portfolio.web</h1>
+                            <h2 className="title"><BiNotepad/></h2>
+                            <p className="text">This portfolio is crafted with React,using a single-page application
+                                (SPA) architecture to deliver a seamless and engaging user experience. </p>
 
-                    <div  data-aos="flip-up" className="CardProjecs" onClick={() => window.open('https://github.com/HenriHTTP/mvc-express')}>
-                        <h1>MVC notes</h1>
-                        <h2><BiNotepad/></h2>
-                        <p></p>
-                        
-        
-                        <button  onClick={() => window.open('https://github.com/HenriHTTP/mvc-express')}>see more</button>
-                    </div>
-                    
-                    <div data-aos="flip-up"  onClick={() => window.open('https://github.com/HenriHTTP?tab=repositories')} className="CardProjecs">
-                        
-                      
-                      
-                       {/* <button disabled><BsCheck2Square/>Ver mais</button>-->*/}
-                    </div> 
-                    </div>
-                    </div>
-            </div>
+                            <button className="normal-button"
+                                    onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>see more
+                            </button>
+                        </div>
+
+                        <div data-aos="flip-up"
+                             onClick={() => window.open('https://github.com/HenriHTTP?tab=repositories')}
+                             className="Card">
+
+                            {/* <button disabled><BsCheck2Square/>Ver mais</button>-->*/}
+                            <button className="normal-button"
+                                    onClick={() => window.open('https://github.com/HenriHTTP/mvc-express')}>see more
+                            </button>
+                        </div>
+                    </main>
+                </article>
+            </section>
         </>
-     
+
     )
 }
