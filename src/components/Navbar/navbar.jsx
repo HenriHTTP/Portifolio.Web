@@ -9,8 +9,8 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 
 export default function Navbar() {
 
-    const [MenuClass, SetMenuClass] = useState('navbar')
-    const [MenuState, SetManuState ] = useState(true)
+    const [MenuClass, SetMenuClass] = useState('navbar');
+    const [MenuState, SetManuState ] = useState(true);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -19,21 +19,14 @@ export default function Navbar() {
         };
     }, [])
     const handleScroll = () => {
-        window.scrollY >= 1 ? SetMenuClass('fixed') : SetMenuClass('navbar')
+        window.scrollY >= 1 ? SetMenuClass('fixed') : SetMenuClass('navbar');
     }
      const HandleMenu = () => {
         SetManuState(!MenuState);
-        const icons = document.getElementById('icons')
 
-        const IsOpen = MenuState === true;
-        if (IsOpen) {
-            icons.style.display = 'flex'
-        }
+        const icons = document.getElementById('icons');
 
-        const IsClose = MenuState === false;
-        if (IsClose) {
-            icons.style.display = 'none'
-        }
+         icons.style.display = MenuState ? 'flex' : 'none';
     }
     return (
         <>
