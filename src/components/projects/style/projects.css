@@ -12,13 +12,14 @@
     width: 1200px;
     justify-content: space-around;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 10px;
 
 }
 
 .Card {
-    width: 90%;
+    width: 40%;
     height: 300px;
     background: white;
     border-radius: 10px;
@@ -39,52 +40,18 @@
     box-shadow: 10px 10px 5px 0px rgba(227, 227, 227, 1);
 }
 
-/*.Card h1 {*/
-/*    font-size: 1em;*/
-/*    text-align: center;*/
-/*    padding: 10px;*/
-/*    color: white;*/
-/*}*/
-
-/*.Card h2 {*/
-/*    font-size: 2em;*/
-/*    text-align: center;*/
-/*    padding: 10px;*/
-/*    color: white;*/
-/*}*/
-
 .titles {
     margin: auto;
     padding: 20px;
 
 }
 
-/*.Card p {*/
-/*    padding: 10px;*/
-/*    text-align: left;*/
-/*    margin: auto;*/
-/*    color: whitesmoke;*/
-/*}*/
 
 .Card img {
     margin: auto;
     width: 150px;
     height: 150px;
 }
-
-/*.Card button {*/
-/*    padding: 10px;*/
-/*    color: #091f74;*/
-/*    background-color: white;*/
-/*    margin: auto;*/
-/*    border-radius: 20px;*/
-/*    font-size: 0.9em;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*.Card button:hover {*/
-/*    opacity: 0.7;*/
-/*}*/
 
 @media screen and (max-width: 620px) {
 
@@ -93,9 +60,15 @@
         width: 100%;
         justify-content: space-around;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;;
         padding: 10px;
+    }
+    .Card {
+        width: 90%;
+        height: 300px;
+        /*background: white;*/
+        border-radius: 10px;
+        display: flex;
     }
 
     .about-projects {
@@ -114,7 +87,7 @@
 
     .Card {
         margin-top: 20px;
-        width: 100%;
+        width: 90%;
         height: 350px;
 
     }
