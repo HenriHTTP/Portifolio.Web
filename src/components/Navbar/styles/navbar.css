@@ -11,7 +11,7 @@
     padding: 0px;
     background-image: url('../img/banner.jpeg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size:cover;
 }
 
 .navbar {
@@ -27,7 +27,6 @@
 .fixed {
     height: 60px;
     width: 100%;
-    margin: auto;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -62,7 +61,7 @@
     justify-content: space-around;
     margin: auto;
     width: 100vw;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     border-bottom: solid 2px transparent;
 
@@ -79,7 +78,7 @@
     margin: auto;
     height: 800px;
     display: flex;
-    justify-content: start;
+   justify-content: flex-start;
     background-color: transparent;
 }
 
