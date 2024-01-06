@@ -2,9 +2,9 @@ import './style/projects.css'
 import {BiNotepad} from 'react-icons/bi'
 import '../global/styles.css'
 
+
 export default function Project() {
-    return (
-        <>
+    return (<>
             <section id="project" className="about-projects">
                 <article className="titles">
                     <h1 className='title'>Projects</h1>
@@ -19,8 +19,7 @@ export default function Project() {
                                 for user
                                 registration and login per token </p>
                             <button className="normal-button"
-                                    onClick={() => window.open('https://github.com/HenriHTTP/express-mongo-docker-api')}>see
-                                more
+                                    onClick={() => window.open('https://github.com/HenriHTTP/express-mongo-docker-api')}>see more
                             </button>
                         </div>
 
@@ -32,7 +31,8 @@ export default function Project() {
                                 (SPA) architecture to deliver a seamless and engaging user experience. </p>
 
                             <button className="normal-button"
-                                    onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>see more
+                                    onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>
+                                see more
                             </button>
                         </div>
 
@@ -40,7 +40,7 @@ export default function Project() {
                              onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>
                             <h1 className="subtitle">Ping-pong</h1>
                             <h2 className="title"><BiNotepad/></h2>
-                            <p className="text">Ping pong game written in C++ , SDL2 and Glew  </p>
+                            <p className="text">Ping pong game written in C++ , SDL2 and Glew </p>
 
                             <button className="normal-button"
                                     onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>see more
