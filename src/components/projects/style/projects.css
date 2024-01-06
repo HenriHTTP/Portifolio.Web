@@ -5,6 +5,7 @@
     background: white;
     display: flex;
     justify-content: center;
+
 }
 
 .container {
@@ -14,8 +15,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
-
+    /*background: red;*/
+    row-gap: 20px;
 }
 
 .Card {
@@ -29,7 +30,9 @@
     transition: 0.5s;
     cursor: pointer;
     margin: auto;
-    margin-top: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(227, 227, 227, 1);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(227, 227, 227, 1);
+    box-shadow: 10px 10px 5px 0 rgba(227, 227, 227, 1);
 
 
 }
@@ -58,10 +61,9 @@
     .container {
         margin: auto;
         width: 100%;
-        justify-content: space-around;
-        display: flex;
-        flex-direction: column;;
-        padding: 10px;
+        /*justify-content: space-around;*/
+        /*display: flex;*/
+        /*flex-direction: column;;*/
     }
     .Card {
         width: 90%;
@@ -81,13 +83,11 @@
 
     .container {
         margin: auto;
-        width: 680px;
-        padding: 10px;
-    }
+        width: 620px;
+     }
 
     .Card {
-        margin-top: 20px;
-        width: 90%;
+        width: 80%;
         height: 350px;
 
     }
@@ -102,15 +102,10 @@
     .container {
         margin: auto;
         width: 880px;
-        justify-content: space-around;
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
     }
 
     .Card {
-        margin-top: 20px;
-        width: 100%;
+        width: 80%;
         height: 450px;
 
     }
