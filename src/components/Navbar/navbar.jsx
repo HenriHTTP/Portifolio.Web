@@ -18,10 +18,11 @@ export default function Navbar() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [])
+
     const handleScroll = () => {
         window.scrollY >= 1 ? SetMenuClass('fixed') : SetMenuClass('navbar');
     }
-     const HandleMenu = () => {
+     const handleMenu = () => {
         SetManuState(!MenuState);
 
         const icons = document.getElementById('icons');
@@ -60,7 +61,7 @@ export default function Navbar() {
                             <p><Link activeClass="active" to="contacts" spy={true} smooth={true} offset={50}
                                      duration={500}><BsHeadphones/></Link></p>
                         </div>
-                        <button id="open" className="hamburger" onClick={HandleMenu}><GiHamburgerMenu/></button>
+                        <button id="open" className="hamburger" onClick={handleMenu}><GiHamburgerMenu/></button>
                     </div>
                 </div>
                 <div className='register'>
