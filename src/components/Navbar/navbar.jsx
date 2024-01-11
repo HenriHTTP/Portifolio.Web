@@ -6,15 +6,16 @@ import {FaUserAlt} from 'react-icons/fa'
 import {BsHeadphones, BsLaptopFill} from 'react-icons/bs'
 import {AiFillHome, AiFillProject} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import {FaGithub} from "react-icons/fa";
 
 export default function Navbar() {
 
     const [MenuClass, SetMenuClass] = useState('navbar');
-    const [MenuState, SetManuState ] = useState(true);
+    const [MenuState, SetManuState] = useState(true);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
-       return () => {
+        return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [])
@@ -22,12 +23,12 @@ export default function Navbar() {
     const handleScroll = () => {
         window.scrollY >= 1 ? SetMenuClass('fixed') : SetMenuClass('navbar');
     }
-     const handleMenu = () => {
+    const handleMenu = () => {
         SetManuState(!MenuState);
 
         const icons = document.getElementById('icons');
 
-         icons.style.display = MenuState ? 'flex' : 'none';
+        icons.style.display = MenuState ? 'flex' : 'none';
     }
     return (
         <>
@@ -66,12 +67,16 @@ export default function Navbar() {
                 </div>
                 <div className='register'>
                     <main>
-                        <p>Hi,i'm Henrique Silva</p>
+                        <p>Henrique Silva</p>
                         <h2>Software developer</h2>
-                        <button className='linkedin'
+                        <section>
+                            <button className='resume-button'>Resume</button>
+                            <button onClick={() => window.open('https://github.com/HenriHTTP')}><FaGithub/></button>
+                            <button
                                 onClick={() => window.open('https://www.linkedin.com/in/henrique-s-da-silva-3115b1228/')}>
-                            <BsLinkedin/> Linkedin
-                        </button>
+                                <BsLinkedin/></button>
+                        </section>
+
                     </main>
 
                 </div>
