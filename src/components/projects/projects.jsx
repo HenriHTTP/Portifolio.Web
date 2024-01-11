@@ -37,26 +37,25 @@ export default function Project() {
                         </div>
 
                         <div data-aos="fade-right" className="Card"
-                             onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>
+                             onClick={() => window.open('https://github.com/HenriHTTP/ping-pong')}>
                             <h1 className="subtitle">Ping-pong</h1>
                             <h2 className="title"><BiNotepad/></h2>
                             <p className="text">Ping pong game written in C++ , SDL2 and Glew </p>
 
                             <button className="normal-button"
-                                    onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>see more
+                                    onClick={() => window.open('https://github.com/HenriHTTP/ping-pong')}>see more
                             </button>
                         </div>
                         <div data-aos="fade-right" className="Card"
-                             onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>
+                             onClick={() => window.open('https://github.com/HenriHTTP/sqlite-python')}>
                             <h1 className="subtitle">
                                 sqlite-python
                             </h1>
                             <h2 className="title"><BiNotepad/></h2>
-                            <p className="text">This portfolio is crafted with React,using a single-page application
-                                (SPA) architecture to deliver a seamless and engaging user experience. </p>
+                            <p className="text">This application is crafted with SQLite and python </p>
 
                             <button className="normal-button"
-                                    onClick={() => window.open('https://github.com/HenriHTTP/Portifolio.Web')}>see more
+                                    onClick={() => window.open('https://github.com/HenriHTTP/sqlite-python')}>see more
                             </button>
                         </div>
 
