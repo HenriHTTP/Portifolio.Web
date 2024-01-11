@@ -16,35 +16,25 @@ export default function Info() {
                 <div className="frontend">
                     <h1 className="title">Software</h1>
                     <h2 className="subtitle">Skills</h2>
-
-
                     <div className="card-main" data-aos="zoom-in">
-
                         <div className="card-tec">
                             <h3><IoLogoNodejs/></h3>
                             <p>Node</p>
                         </div>
-
                         <div className="card-tec">
                             <h3><SiExpress/></h3>
                             <p>Express</p>
                         </div>
-
                         <div className="card-tec">
                             <h3><SiMysql/></h3>
                             <p>Mysql</p>
                         </div>
-
                         <div className="card-tec">
                             <h3><SiReact/></h3>
                             <p>React</p>
                         </div>
-
                     </div>
-
                 </div>
-
-
             </div>
         </>
     )
