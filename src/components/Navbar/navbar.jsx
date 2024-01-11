@@ -70,11 +70,13 @@ export default function Navbar() {
                         <p>Henrique Silva</p>
                         <h2>Software developer</h2>
                         <section>
-                            <button className='resume-button'>Resume</button>
+                            <button className='resume-button' onClick={()=>window.open('https://drive.google.com/file/d/1EpiCZwpPmaMT3048ft3ZIaBBy9l395OB/view?usp=drive_link')}>Resume</button>
                             <button onClick={() => window.open('https://github.com/HenriHTTP')}><FaGithub/></button>
                             <button
                                 onClick={() => window.open('https://www.linkedin.com/in/henrique-s-da-silva-3115b1228/')}>
                                 <BsLinkedin/></button>
+                                
+                                
                         </section>
 
                     </main>

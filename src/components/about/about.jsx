@@ -29,7 +29,7 @@ export default function About() {
                         <p className="text">Below is my resume with more detailed information about me.</p>
                         <section className="buttons-section">
                             <button
-                                onClick={() => window.open('https://drive.google.com/file/d/1iozr7nIA-EimhAwrENOy4n6jFChMIr_l/view')}>
+                                onClick={()=>window.open('https://drive.google.com/file/d/1EpiCZwpPmaMT3048ft3ZIaBBy9l395OB/view?usp=drive_link')}>
                                 <BsDownload/> resume
                             </button>
                         </section>
