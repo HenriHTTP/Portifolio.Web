@@ -1,17 +1,15 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-size: 1em;
 }
 
 .Content {
     width: 100%;
-    margin: 0px;
-    height: 1000px;
-    padding: 0px;
-    background-image: url('../img/banner.jpeg');
-    background-repeat: no-repeat;
-    background-size:cover;
+    margin: 0;
+    height: 300px;
+    padding: 0;
+    background: #091f74;
 }
 
 .navbar {
@@ -19,13 +17,13 @@
     width: 80vw;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     color: white;
 }
 
 .fixed {
-    height: 60px;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -39,7 +37,6 @@
 }
 
 .logo {
-    width: 400px;
     display: flex;
     justify-content: center;
 }
@@ -76,31 +73,44 @@
 .register {
     width: 80vw;
     margin: auto;
-    height: 800px;
     display: flex;
-   justify-content: flex-start;
-    background-color: transparent;
+    justify-content: flex-start;
 }
 
 .register h2 {
     font-size: 3em;
-    animation-name: tapping;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-
 }
 
 .register main {
-    width: 500px;
     color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: transparent;
+    padding-top: 20px;
+}
+
+.register main section {
+
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+
+.register main section button {
+    padding: 10px;
+    background: transparent;
+    border: solid white 2px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+
 }
 
 .register main p {
-    width: 500px;
     color: white;
     font-size: 2em;
 }
@@ -152,7 +162,7 @@
     }
     to {
         position: relative;
-        left: 0px;
+        left: 0;
     }
 }
 
@@ -174,7 +184,7 @@
         top: -10px;
     }
     100% {
-        left: 0px;
+        left: 0;
     }
 }
 
@@ -190,9 +200,9 @@
 @media (min-width: 299.98px) and (max-width: 566.98px) {
     .Content {
         width: 100%;
-        margin: 0px;
-        height: 350px;
-        padding: 0px;
+        margin: 0;
+        height: auto;
+        padding: 0;
         background-size: 100% 350px;
     }
 
@@ -242,50 +252,24 @@
     }
 
     .register {
-        width: 80vw;
-        margin: auto;
-        height: 300px;
-        display: flex;
-        justify-content: start;
-        background-color: transparent;
+        justify-content: space-around;
+        width: 100%;
     }
 
     .register main {
-        width: 300px;
-        color: white;
-        display: flex;
-        justify-content: center;
         flex-direction: column;
-        background-color: transparent;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .register main h2 {
+        font-size: 2em;
     }
 
     .register main p {
-        width: 300px;
-        color: white;
-        font-size: 1.5em;
-    }
-
-    .register h2 {
-        font-size: 2em;
-        animation-name: tapping;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-
-    }
-
-    .linkedin {
-        width: 300px;
-        color: white;
-        font-size: 1.5em;
-        padding: 5px;
-        margin-top: 20px;
-        border: solid 3px white;
-        border-radius: 20px;
-        cursor: pointer;
-        animation-name: punch;
-        animation-duration: 0.5s;
-
-
+        font-size: 1.2em;
     }
 
     .icons-nav {
@@ -338,14 +322,6 @@
         font-size: 1.5em;
     }
 
-    .Content {
-        width: 100%;
-        margin: 0px;
-        height: 600px;
-        padding: 0px;
-        background-size: 100% 600px;
-    }
-
     .navbar {
         height: 50px;
         width: 100vw;
@@ -387,52 +363,6 @@
         background-color: white;
     }
 
-    .register {
-        width: 80vw;
-        margin: auto;
-        height: 500px;
-        display: flex;
-        justify-content: start;
-        background-color: transparent;
-    }
-
-    .register main {
-        width: 300px;
-        color: white;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background-color: transparent;
-    }
-
-    .register main p {
-        width: 300px;
-        color: white;
-        font-size: 1.5em;
-    }
-
-    .register h2 {
-        font-size: 2em;
-        animation-name: tapping;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-
-    }
-
-    .linkedin {
-        width: 300px;
-        color: white;
-        font-size: 1.5em;
-        padding: 5px;
-        margin-top: 20px;
-        border: solid 3px white;
-        border-radius: 20px;
-        cursor: pointer;
-        animation-name: punch;
-        animation-duration: 0.5s;
-
-
-    }
 
     .icons-nav {
         margin: auto;
@@ -507,15 +437,7 @@
     }
 
     .fixed {
-        height: 75px;
+        height: 50px;
     }
 
-    .register {
-        width: 80vw;
-        margin: auto;
-        height: 900px;
-        display: flex;
-        justify-content: start;
-        background-color: transparent;
-    }
 }
