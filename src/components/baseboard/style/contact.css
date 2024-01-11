@@ -1,75 +1,123 @@
-.ContactContainer{ 
+.ContactContainer {
     width: 100%;
-    margin: 0px;
-    height: 300px;
-    padding: 0px;
-    background:whitesmoke;
+    margin: 0;
+    padding: 0;
     display: flex;
+    background-color: white;
     justify-content: center;
     flex-direction: column;
 }
-.Contact{ 
-    width: 900px;
-    margin:auto;
-    height: 400px;
+
+.Contact {
+    width: 90%;
+    margin: auto;
     padding: 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-.Contact h1{ 
-    font-size: 1.5em;
-    text-align: center;
     padding: 20px;
 }
-.ContactContent{ 
-    width: 700px;
-    margin: 0px;
-    padding: 0px;
+
+.ContactContent {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-around;
     margin: auto;
- 
 }
-.ContactContent button{ 
-    width: 200px;
-    margin: 0px;
+
+.ContactContent button {
+    margin: 0;
     height: 50px;
-    background-color: whitesmoke;
     border: none;
     font-size: 1em;
+    background-color: transparent;
+    padding: 20px;
 }
 
-@media (min-width:621px) and (max-width:900px) { 
-    .Contact{ 
-        width: 500px;
-
-    }
-    .ContactContent{ 
-        width: 500px;
-    }
-
-}
-@media (min-width:901px) and (max-width:1280px) { 
-    .Contact{ 
-        width: 800px;
-    }
-    .ContactContent{ 
-        width: 880px;
-    }
-  
+.email-form {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    flex-direction: column;
 }
 
-@media (min-width:299.98px) and (max-width:620px) {
-    .Contact{ 
-        width: 320px;
+.email-form p {
+    padding: 20px;
+    color: gray;
+    font: 1em;
+    font-weight: bold;
 
+}
+
+.email-form input {
+    padding: 10px;
+    color: gray;
+    font: 1em;
+    border-radius: 20px;
+    border: solid 2px gray;
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+
+.email-form textarea {
+    padding: 10px;
+    color: gray;
+    font: 1em;
+    border-radius: 20px;
+    border: solid 2px gray;
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+
+.email-form button {
+    padding: 10px;
+    color: white;
+    font: 1em;
+    border-radius: 20px;
+    background: #091f74;
+    width: 200px;
+    border: none;
+    margin: auto;
+}
+
+@media (min-width: 621px) and (max-width: 900px) {
+    .email-form {
+        width: 80%;
+        justify-content: space-around;
+        display: flex;
     }
-    .ContactContent{ 
-        width: 320px;
-        flex-direction: column;    
+
+
+}
+
+@media (min-width: 901px) and (max-width: 1280px) {
+    .email-form {
+        width: 80%;
+        justify-content: space-around;
     }
-    .ContactContent button{ 
+
+    .email-form {
+        width: 80%;
+        justify-content: space-around;
+        display: flex;
+    }
+
+
+}
+
+@media (min-width: 299.98px) and (max-width: 620px) {
+    .ContactContent {
+        width: 80%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .ContactContent button {
         margin: auto;
     }
 
