@@ -70,18 +70,18 @@
 }
 
 
-.register {
+.about-me-container {
     width: 80vw;
     margin: auto;
     display: flex;
     justify-content: flex-start;
 }
 
-.register h2 {
+.about-me-container h2 {
     font-size: 3em;
 }
 
-.register main {
+.about-me-container main {
     color: white;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@
     padding-top: 20px;
 }
 
-.register main section {
+.about-me-container main section {
 
     display: flex;
     align-items: flex-start;
@@ -98,7 +98,7 @@
 }
 
 
-.register main section button {
+.about-me-container main section button {
     padding: 10px;
     background: transparent;
     border: solid white 2px;
@@ -110,28 +110,35 @@
 
 }
 
-.register main p {
+.about-me-container main p {
     color: white;
     font-size: 2em;
 }
 
-.linkedin {
-    width: 500px;
-    color: white;
-    font-size: 2em;
-    padding: 20px;
-    margin-top: 20px;
-    background-color: transparent;
-    border: solid 3px white;
-    border-radius: 20px;
-    cursor: pointer;
-    animation-name: punch;
-    animation-duration: 0.5s;
+/*.linkedin {*/
+/*    width: 500px;*/
+/*    color: white;*/
+/*    font-size: 2em;*/
+/*    padding: 20px;*/
+/*    margin-top: 20px;*/
+/*    background-color: transparent;*/
+/*    border: solid 3px white;*/
+/*    border-radius: 20px;*/
+/*    cursor: pointer;*/
+/*    animation-name: punch;*/
+/*    animation-duration: 0.5s;*/
 
 
-}
+/*}*/
 
 .icons-nav {
+    margin: auto;
+    width: 60vw;
+    font-size: 1.2em;
+    justify-content: space-around;
+    animation-name: punch;
+    animation-duration: 0.5s;
+    position: relative;
     display: none;
 }
 
@@ -140,10 +147,20 @@
 }
 
 .hamburger {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    border: none;
+    background-color: white;
     display: none;
 }
 
 .Esc {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    border: none;
+    background-color: white;
     display: none;
 }
 
@@ -166,27 +183,6 @@
     }
 }
 
-.linkedin:hover {
-    color: whitesmoke;
-}
-
-@keyframes toppunch {
-    0% {
-        top: -100px;
-    }
-    25% {
-        top: -50px;
-    }
-    50% {
-        top: -25px;
-    }
-    75% {
-        top: -10px;
-    }
-    100% {
-        left: 0;
-    }
-}
 
 @keyframes tapping {
     0% {
@@ -197,7 +193,7 @@
     }
 }
 
-@media (min-width: 299.98px) and (max-width: 566.98px) {
+@media (min-width: 299px) and (max-width: 566px) {
     .Content {
         width: 100%;
         margin: 0;
@@ -228,14 +224,6 @@
     }
 
     .Links ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-        width: 100vw;
-        font-size: 1em;
-        cursor: pointer;
-        border-bottom: solid 2px transparent;
         display: none;
 
     }
@@ -251,12 +239,12 @@
         background-color: white;
     }
 
-    .register {
+    .about-me-container {
         justify-content: space-around;
         width: 100%;
     }
 
-    .register main {
+    .about-me-container main {
         flex-direction: column;
         justify-content: space-around;
         width: 80%;
@@ -264,41 +252,16 @@
         padding: 20px;
     }
 
-    .register main h2 {
+    .about-me-container main h2 {
         font-size: 2em;
     }
 
-    .register main p {
+    .about-me-container main p {
         font-size: 1.2em;
-    }
-
-    .icons-nav {
-        margin: auto;
-        width: 60vw;
-        font-size: 1.2em;
-        justify-content: space-around;
-        animation-name: punch;
-        animation-duration: 0.5s;
-        position: relative;
-
     }
 
     .hamburger {
         display: block;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 50px;
-        border: none;
-        background-color: white;
-    }
-
-    .Esc {
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 50px;
-        border: none;
-        background-color: white;
-
     }
 
     .icons-nav p {
@@ -340,14 +303,6 @@
     }
 
     .Links ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-        width: 100vw;
-        font-size: 1em;
-        cursor: pointer;
-        border-bottom: solid 2px transparent;
         display: none;
 
     }
@@ -363,34 +318,8 @@
         background-color: white;
     }
 
-
-    .icons-nav {
-        margin: auto;
-        width: 60vw;
-        font-size: 1.2em;
-        justify-content: space-around;
-        animation-name: punch;
-        animation-duration: 0.5s;
-        position: relative;
-
-    }
-
-    .hamburger {
+    .hamburger{
         display: block;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 50px;
-        border: none;
-        background-color: white;
-    }
-
-    .Esc {
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 50px;
-        border: none;
-        background-color: white;
-
     }
 
     .icons-nav p {
